@@ -1,0 +1,33 @@
+POST  http://localhost:5000/user/register
+Content-Type: application/json
+
+{
+    "name":"deepak", 
+    "email":"deepaksahu7201@gmail.com",
+    "password":"deepaksahu123"
+}
+
+############
+POST  http://localhost:5000/user/login
+Content-Type: application/json
+
+{
+    "email":"deepaksahu7201@gmail.com",
+    "password":"deepaksahu123"
+}
+
+
+############
+GET  http://localhost:5000/user/logout
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNjFhYmQzOWNjODczMjFlNDRlZjkzYiIsImlhdCI6MTYzMzc5MTExNCwiZXhwIjoxNjMzNzkxNzc0fQ.0qncH7Aqy8wbcYErvCuv0JHJ1deYTaCgn5g_TG2FvnA
+
+
+
+############
+GET  http://localhost:5000/user/infor
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNjFhYmQzOWNjODczMjFlNDRlZjkzYiIsImlhdCI6MTYzMzc5MTIyMSwiZXhwIjoxNjMzNzkxODgxfQ.DwzkgoPoldru7yOyU18H9fJHQwai1j5RPhOHqSxgaQY
+
+
+############
+PATCH  http://localhost:5000/user/infor
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNjFhYmQzOWNjODczMjFlNDRlZjkzYiIsImlhdCI6MTYzMzc5MTIyMSwiZXhwIjoxNjMzNzkxODgxfQ.DwzkgoPoldru7yOyU18H9fJHQwai1j5RPhOHqSxgaQY

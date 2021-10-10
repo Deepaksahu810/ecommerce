@@ -1,0 +1,11 @@
+GET http://localhost:5000/api/category
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNjFhYmQzOWNjODczMjFlNDRlZjkzYiIsImlhdCI6MTYzMzc5MjA0MCwiZXhwIjoxNjMzNzkyNzAwfQ.m5cjjgEQygQid0tqbglVuABR0N8hDekJrTCf4VR2d5s
+
+######
+POST http://localhost:5000/api/category
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNjFhYmQzOWNjODczMjFlNDRlZjkzYiIsImlhdCI6MTYzMzc5MjA0MCwiZXhwIjoxNjMzNzkyNzAwfQ.m5cjjgEQygQid0tqbglVuABR0N8hDekJrTCf4VR2d5s
+Content-Type: application/json
+
+{
+    "name":"fruit"
+}
